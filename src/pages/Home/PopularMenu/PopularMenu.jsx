@@ -16,17 +16,19 @@ const PopularMenu = () => {
       />
       
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid md:grid-cols-2 lg:grid-cols-2">
         {popular.map((item) => (  // Looping through the popular items
           <MenuItem key={item._id} item={item} />  // Rendering each MenuItem
         ))}
       </div>
 
       
-
-<Link to="/menu"><button className="btn btn-neutral btn-outline text-center">
+<div className="flex justify-center">
+  
+<Link to="/menu"><button className="btn mt-6 btn-neutral justify-center btn-outline text-center">
         View Full Menu
       </button></Link>
+</div>
        
     </section>
   );

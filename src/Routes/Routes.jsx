@@ -20,6 +20,7 @@ import PaymentHistory from "../pages/Dashboard/PaymentHistory/PaymentHistory";
 import AdminHome from "../pages/Dashboard/AdminHome/AdminHome";
 import UserHome from "../pages/Dashboard/UserHome/UserHome";
 import Contact from "../pages/Dashboard/Contact/Contact";
+import AdminDefaultLogin from "../pages/Login/AdminDefaultLogin";
 
 export const router = createBrowserRouter([
   {
@@ -45,6 +46,12 @@ export const router = createBrowserRouter([
       {
         path: "signup",
         element: <SignUp></SignUp>,
+      },
+        {
+
+        path: "adminlogin",
+        element: <AdminDefaultLogin></AdminDefaultLogin>
+
       },
       {
         path: "secret",
@@ -86,6 +93,8 @@ export const router = createBrowserRouter([
         path: "contact",
         element: <Contact></Contact>,
       },
+
+    
 
       // admin users
       {

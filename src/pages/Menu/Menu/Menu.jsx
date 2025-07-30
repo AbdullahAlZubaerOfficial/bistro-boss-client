@@ -10,7 +10,7 @@ import dessertImg from '../../../assets/menu/dessert-bg.jpeg';
 import soupImg from '../../../assets/menu/soup-bg.jpg';
 import saladImg from '../../../assets/menu/salad-bg.jpg';
 import pizzaImg from '../../../assets/menu/pizza-bg.jpg';
-import backgroundImg from '../../../assets/others/authentication.png'; // ✅ corrected path
+// import backgroundImg from '../../../assets/others/authentication.png'; // ✅ corrected path
 
 const Menu = () => {
     const [menu] = useMenu();
@@ -23,7 +23,7 @@ const Menu = () => {
     return (
         <div
             className="bg-cover bg-center"
-            style={{ backgroundImage: `url(${backgroundImg})` }}
+            // style={{ backgroundImage: `url(${backgroundImg})` }}
         >
             <Helmet>
                 <title>@ZubaerQ | Menu</title>

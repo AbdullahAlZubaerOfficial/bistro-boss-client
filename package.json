@@ -17,7 +17,7 @@
     "daisyui": "^5.0.18",
     "emailjs-com": "^3.2.0",
     "firebase": "^11.6.0",
-    "framer-motion": "^12.7.3",
+    "framer-motion": "^12.23.12",
     "localforage": "^1.10.0",
     "match-sorter": "^8.0.0",
     "react": "^19.0.0",
