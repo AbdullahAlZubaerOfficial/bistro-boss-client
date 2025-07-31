@@ -6,7 +6,11 @@
 
 ## ✨ Live Demo
 
-🔗 [Live Website](https://bistro-boss-f9cc6.web.app/)  
+🔗 [Live Website](https://bistro-boss-f9cc6.web.app/)
+🔗 [Client Repository](https://github.com/AbdullahAlZubaerOfficial/bistro-boss-client)
+🔗 [Server Repository](https://github.com/AbdullahAlZubaerOfficial/bistro-boss-server)
+
+ 
 
 
 <br/>
