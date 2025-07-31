@@ -1,12 +1,71 @@
-# React + Vite
+# 🍽️ FoodCorner - Online Food Ordering Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**FoodFiesta** is a full-stack food ordering platform that allows users to explore delicious food items, place orders, and make secure online payments. After every successful transaction, a unique **Transaction ID** is generated and safely stored in the **Order History** for future reference.
 
-Currently, two official plugins are available:
+<br/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Live Demo
 
-## Expanding the ESLint configuration
+🔗 [Live Website](https://bistro-boss-f9cc6.web.app/)  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+<br/>
+
+## 🧑‍🍳 User Features
+
+- 🔍 Browse a wide range of food items
+- 🛒 Add items to cart
+- 💳 Place orders via secure Stripe payment
+- 🧾 Get a unique transaction ID after successful payment
+- 📜 View detailed order history
+
+<br/>
+
+## 🛠️ Admin Dashboard Features
+
+- 📊 View total revenue with graphical analytics using **Recharts**
+- ➕ Add new food items
+- ✏️ Update existing items
+- ❌ Delete unwanted items
+- 👥 View and manage all registered users
+- 🔐 Securely control the entire platform
+
+<br/>
+
+## 💡 Key Highlights
+
+- ✅ **Stripe Payment Integration** – Seamless and secure transactions
+- 🔐 **Firebase Authentication** – Secure login and access control
+- 🛒 **Dynamic Cart & Order System**
+- 💻 **Responsive Design** – Mobile-friendly UI using Tailwind CSS & DaisyUI
+- 🧮 **Revenue Visualization** – Interactive charts using Recharts
+- 🗄️ **MongoDB Database** – Scalable and efficient data management
+- 🔁 **JWT Authentication** – Secure protected API routes
+
+<br/>
+
+## 🛠️ Tech Stack
+
+| Technology       | Description                         |
+|------------------|-------------------------------------|
+| React.js         | Frontend Framework                  |
+| Tailwind CSS     | Utility-first CSS Framework         |
+| DaisyUI          | Component Library for Tailwind      |
+| Node.js          | Backend Runtime Environment         |
+| Express.js       | Backend Web Framework               |
+| MongoDB          | NoSQL Database                      |
+| Firebase         | Authentication                      |
+| Stripe           | Payment Gateway                     |
+| JWT              | Token-based API security            |
+| Recharts         | Data visualization library          |
+
+<br/>
+
+## 📷 Screenshots
+
+![FoodFiesta Screenshot](https://i.ibb.co/4ZMLYKdp/Screenshot-2025-07-31-163706.png)
+
+<br/>
+
+
+
