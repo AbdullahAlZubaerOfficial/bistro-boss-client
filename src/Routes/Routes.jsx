@@ -47,11 +47,9 @@ export const router = createBrowserRouter([
         path: "signup",
         element: <SignUp></SignUp>,
       },
-        {
-
+      {
         path: "adminlogin",
-        element: <AdminDefaultLogin></AdminDefaultLogin>
-
+        element: <AdminDefaultLogin></AdminDefaultLogin>,
       },
       {
         path: "secret",
@@ -93,8 +91,6 @@ export const router = createBrowserRouter([
         path: "contact",
         element: <Contact></Contact>,
       },
-
-    
 
       // admin users
       {
@@ -140,7 +136,7 @@ export const router = createBrowserRouter([
           </AdminRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5005/menu/${params.id}`),
+          fetch(`https://y-one-kohl.vercel.app/menu/${params.id}`),
       },
     ],
   },
